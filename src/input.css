@@ -6,3 +6,7 @@
 @tailwind components;
 @tailwind utilities;
 
+.active{
+    transform: scale(1) translateX(-50%);
+    opacity: 1;
+}
