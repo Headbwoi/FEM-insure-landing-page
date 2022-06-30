@@ -10,3 +10,6 @@
     transform: scale(1) translateX(-50%);
     opacity: 1;
 }
+.before-content{
+    @apply before:absolute before:-bottom-[24.5rem] lg:before:-bottom-[25.5rem] before:-left-2 before:w-[44%] before:h-[94%] lg:before:h-full lg:before:w-full before:bg-[url('../images/bg-pattern-intro-left-mobile.svg')] lg:before:bg-[url('../images/bg-pattern-intro-left-desktop.svg')] before:bg-no-repeat before:z-10 before:bg-contain
+}

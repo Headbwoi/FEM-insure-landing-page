@@ -12,7 +12,7 @@
   <script src="public/script.js" defer></script>
 
 </head>
-<body>
+<body class="overflow-x-hidden">
 
   <header>
     <div class="container">
@@ -44,17 +44,38 @@
       </nav>
     </div>
   </header>
+
+
   <main>
 
+    <!-- hero section -->
+
+    <section class="hero relative bg-darkViolet h-[59.375rem] lg:h-[37.5rem] w-full before-content after:absolute after:top-[49.5rem] lg:after:top-0 after:right-0 lg:after:right-3/4 after:w-[30%] after:h-[94%] lg:after:h-full lg:after:w-full after:bg-[url('../images/bg-pattern-intro-right-mobile.svg')] lg:after:bg-[url('../images/bg-pattern-intro-right-desktop.svg')] after:bg-no-repeat after:z-10 after:bg-contain">
+      
+      <div class="container">
+        <!-- flex container -->
+        <div class="flex items-start justify-between flex-col md:flex-row-reverse lg:pt-[6.25rem] relative z-20">
+          <!-- image -->
+          <div>
+            <img src="images/image-intro-mobile.jpg" alt="image-intro-mobile" class="lg:hidden h-[28.1875rem] w-full">
+            <img src="images/image-intro-desktop.jpg" alt="image-intro-desktop" class="hidden lg:flex lg:h-[40.6875rem] lg:w-[33.8125rem] ">
+          </div>
+
+          <!-- text -->
+          <div class="px-6 lg:px-0 pt-[6.25rem] pb-[5.625rem] w-full lg:w-[33.5625rem] lg:pt-0 lg:pb-0 text-center lg:text-left">
+            <p class="hidden lg:flex w-[9.5625rem] h-[1px] bg-veryLightGray mb-[4.375rem] "></p>
+
+            <h1 class="font-karla font-bold text-4xl text-veryLightGray lg:text-5xl mb-5 lg:mb-6">Humanizing your insurance.</h1>
+            <p class="font-sans font-normal text-lg text-veryLightGray mb-9">Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that’s right for you. Ensure you and your loved ones are protected.</p>
+            <a href="#" class="uppercase text-xs text-veryLightGray font-bold font-karla tracking-widest w-36 h-10 mx-auto lg:mx-0 border-2 border-veryLightGray flex items-center justify-center hover:bg-veryLightGray hover:text-veryDarkViolet duration-300">View plans</a>
+          </div>
+        </div>
+      </div>
+    </section>
   </main>
 
 
   <!-- 
-  Humanizing your insurance.
-
-  Get your life insurance coverage easier and faster. We blend our expertise 
-  and technology to help you find the plan that’s right for you. Ensure you 
-  and your loved ones are protected.
 
   View plans
 
