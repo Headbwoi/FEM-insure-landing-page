@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
 
 
 @tailwind base;
@@ -10,6 +10,23 @@
     transform: scale(1) translateX(-50%);
     opacity: 1;
 }
-.before-content{
-    @apply before:absolute before:-bottom-[24.5rem] lg:before:-bottom-[25.5rem] before:-left-2 before:w-[44%] before:h-[94%] lg:before:h-full lg:before:w-full before:bg-[url('../images/bg-pattern-intro-left-mobile.svg')] lg:before:bg-[url('../images/bg-pattern-intro-left-desktop.svg')] before:bg-no-repeat before:z-10 before:bg-contain
+.left-mobile{
+    @apply absolute bottom-[13rem] -left-2 w-[50%] h-[18.5rem] lg:hidden bg-[url('../images/bg-pattern-intro-left-mobile.svg')] bg-no-repeat z-10 bg-contain
 }
+/* .right-mobile{
+
+} */
+.right-desktop{
+    @apply absolute top-0 -right-52 h-[30.5rem] w-[42%] bg-[url('../images/bg-pattern-intro-right-desktop.svg')] bg-no-repeat z-30 bg-contain hidden lg:block
+}
+/* .left-dektop{
+
+} */
+@font-face {
+    font-family: "Karla";
+    src: url(../static/Karla-Bold.ttf), url(../static/Karla-Regular.ttf);
+}
+/* @font-face {
+    font-family: "DM Serif Display";
+    src: url(../static/DMSerifDisplay-Regular.ttf);
+} */

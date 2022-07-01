@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -14,9 +14,9 @@
 </head>
 <body class="overflow-x-hidden">
 
-  <header>
+  <header class="relative z-50 overflow-hidden">
     <div class="container">
-      <nav class="relative flex items-center justify-between h-20 px-6 lg:px-0">
+      <nav class="relative flex items-center justify-between h-20 px-6 lg:px-0 ">
         <!-- logo -->
         <img src="images/logo.svg" alt="logo" class="logo w-28 h-5">
         <!-- desktop menu -->
@@ -50,11 +50,13 @@
 
     <!-- hero section -->
 
-    <section class="hero relative bg-darkViolet h-[59.375rem] lg:h-[37.5rem] w-full before-content after:absolute after:top-[49.5rem] lg:after:top-0 after:right-0 lg:after:right-3/4 after:w-[30%] after:h-[94%] lg:after:h-full lg:after:w-full after:bg-[url('../images/bg-pattern-intro-right-mobile.svg')] lg:after:bg-[url('../images/bg-pattern-intro-right-desktop.svg')] after:bg-no-repeat after:z-10 after:bg-contain">
+    <section class="hero relative bg-darkViolet h-[59.375rem] lg:h-[37.5rem] w-full">
+      <span class="left-mobile"></span>
+      <span class="right-desktop"></span>
       
-      <div class="container">
+      <div class="container ">
         <!-- flex container -->
-        <div class="flex items-start justify-between flex-col md:flex-row-reverse lg:pt-[6.25rem] relative z-20">
+        <div class="flex items-start justify-between flex-col md:flex-row-reverse lg:pt-[6.25rem] relative z-10">
           <!-- image -->
           <div>
             <img src="images/image-intro-mobile.jpg" alt="image-intro-mobile" class="lg:hidden h-[28.1875rem] w-full">
@@ -62,40 +64,64 @@
           </div>
 
           <!-- text -->
-          <div class="px-6 lg:px-0 pt-[6.25rem] pb-[5.625rem] w-full lg:w-[33.5625rem] lg:pt-0 lg:pb-0 text-center lg:text-left">
-            <p class="hidden lg:flex w-[9.5625rem] h-[1px] bg-veryLightGray mb-[4.375rem] "></p>
+          <div class="pt-[6.25rem] pb-[5.625rem] w-full lg:w-[33.5625rem] lg:pt-0 lg:pb-0 text-center lg:text-left">
+            <span class="hidden lg:flex w-[9.5625rem] h-[1px] bg-veryLightGray mb-[4.375rem] "></span>
 
-            <h1 class="font-karla font-bold text-4xl text-veryLightGray lg:text-5xl mb-5 lg:mb-6">Humanizing your insurance.</h1>
-            <p class="font-sans font-normal text-lg text-veryLightGray mb-9">Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that’s right for you. Ensure you and your loved ones are protected.</p>
-            <a href="#" class="uppercase text-xs text-veryLightGray font-bold font-karla tracking-widest w-36 h-10 mx-auto lg:mx-0 border-2 border-veryLightGray flex items-center justify-center hover:bg-veryLightGray hover:text-veryDarkViolet duration-300">View plans</a>
+            <h1 class="font-sans font-normal text-5xl lg:text-6xl text-veryLightGray mb-5 lg:mb-6 px-5 lg:px-0">Humanizing your insurance.</h1>
+            <p class="font-karla font-normal text-veryLightGray mb-9 px-6 lg:px-0">Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that’s right for you. Ensure you and your loved ones are protected.</p>
+            <button href="#" class="uppercase text-xs text-veryLightGray font-bold font-karla tracking-widest w-36 h-10 mx-auto lg:mx-0 border-2 border-veryLightGray flex items-center justify-center hover:bg-veryLightGray hover:text-veryDarkViolet duration-300">View plans</button>
+          </div>
+        </div>
+      </div> 
+    </section>
+
+    <!-- features section -->
+
+    <section class="features h-[81.875rem] lg:h-[48.8125rem] ">
+
+      <div class="container">
+        <!-- heading -->
+        <div class="heading mt-[8.75rem] lg:mt-[18.75rem] text-center md:text-left mb-[5.25rem] md:mb-[6.25rem] ">
+          <span class="w-[9.5625rem] h-[1px] bg-grayishBlue mb-[4.0625rem] block mx-auto md:mx-0"></span>
+          <h2 class="font-sana font-bold text-[2.5rem] lg:text-6xl text-veryDarkViolet mb-5 lg:mb-6 px-5 lg:px-0">We’re different</h2>
+        </div>
+        <!-- cards -->
+        <div class="flex items-center justify-between flex-col md:flex-row gap-[3.75rem] lg:gap-[1.875rem] px-6 lg:px-0">
+          <!-- card one -->
+          <div class="text-center lg:text-left">
+            <img src="images/icon-snappy-process.svg" alt="icon-snappy-process" class="w-[5.625rem] h-[5.625rem] mb-[2.625rem] block mx-auto lg:mx-0">
+            <p class="text-3xl text-veryDarkViolet font-bold font-sans mb-6">Snappy Process</p>
+            <p class="text-base text-center lg:text-left font-normal font-karla text-darkGrayishViolet">
+              Our application process can be completed in minutes, not hours. Don’t get stuck filling in tedious forms.</p>
+          </div>
+
+          <!-- card two -->
+          <div class="text-center lg:text-left">
+            <img src="images/icon-affordable-prices.svg" alt="icon-affordable-prices" class="w-[5.625rem] h-[5.625rem] mb-[2.625rem] block mx-auto lg:mx-0">
+            <p class="text-3xl text-veryDarkViolet font-bold font-sans mb-6">Affordable Prices</p>
+            <p class="text-base text-center lg:text-left font-normal font-karla text-darkGrayishViolet">
+              We don’t want you worrying about high monthly costs. Our prices may be low, but we still offer the best coverage possible.</p>
+          </div>
+
+          <!-- card three -->
+          <div class="text-center lg:text-left">
+            <img src="images/icon-people-first.svg" alt="icon-people-first" class="w-[5.625rem] h-[5.625rem] mb-[2.625rem] block mx-auto lg:mx-0">
+            <p class="text-3xl text-veryDarkViolet font-bold font-sans mb-6">People First</p>
+            <p class="text-base text-center lg:text-left font-normal font-karla text-darkGrayishViolet">
+              Our plans aren’t full of conditions and clauses to prevent payouts. We make sure you’re covered when you need it.</p>
           </div>
         </div>
       </div>
+
     </section>
+
+    <!-- description section -->
+
+    <section class="h-[21.5625rem] lg:h-[15.625rem] bg-darkViolet "></section>
   </main>
 
 
   <!-- 
-
-  View plans
-
-  We’re different
-
-  Snappy Process
-
-  Our application process can be completed in minutes, not hours. Don’t get 
-  stuck filling in tedious forms.
-
-  Affordable Prices
-
-  We don’t want you worrying about high monthly costs. Our prices may be low, 
-  but we still offer the best coverage possible.
-
-  People First
-
-  Our plans aren’t full of conditions and clauses to prevent payouts. We make 
-  sure you’re covered when you need it.
-
   Find out more about how we work
 
   How we work
