@@ -1053,7 +1053,7 @@ video {
   background-repeat: no-repeat;
 }
 
-@media (min-width: 1115px){
+@media (min-width: 768px){
   .left-mobile{
     display: none;
   }
@@ -1072,7 +1072,7 @@ video {
   background-repeat: no-repeat;
 }
 
-@media (min-width: 1115px){
+@media (min-width: 768px){
   .right-mobile{
     display: none;
   }
@@ -1091,7 +1091,7 @@ video {
   background-repeat: no-repeat;
 }
 
-@media (min-width: 1115px){
+@media (min-width: 768px){
   .right-desktop{
     display: block;
   }
@@ -1110,7 +1110,7 @@ video {
   background-repeat: no-repeat;
 }
 
-@media (min-width: 1115px){
+@media (min-width: 768px){
   .left-desktop{
     display: block;
   }
@@ -1129,7 +1129,7 @@ video {
   background-repeat: no-repeat;
 }
 
-@media (min-width: 1115px){
+@media (min-width: 768px){
   .right{
     top: -7rem;
     right: -4rem;
@@ -1149,7 +1149,7 @@ video {
   background-repeat: no-repeat;
 }
 
-@media (min-width: 1115px){
+@media (min-width: 768px){
   .footer{
     height: 14.5625rem;
     width: 33.125rem;
@@ -1212,6 +1212,22 @@ video {
     height: 37.5rem;
   }
 
+  .md\:h-\[40\.6875rem\]{
+    height: 40.6875rem;
+  }
+
+  .md\:h-\[45\.8125rem\]{
+    height: 45.8125rem;
+  }
+
+  .md\:w-\[33\.8125rem\]{
+    width: 33.8125rem;
+  }
+
+  .md\:w-\[30\.6975rem\]{
+    width: 30.6975rem;
+  }
+
   .md\:flex-row{
     flex-direction: row;
   }
@@ -1224,8 +1240,17 @@ video {
     align-items: flex-start;
   }
 
+  .md\:pt-\[6\.25rem\]{
+    padding-top: 6.25rem;
+  }
+
   .md\:text-left{
     text-align: left;
+  }
+
+  .md\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 
@@ -1255,28 +1280,12 @@ video {
     display: flex;
   }
 
-  .lg\:hidden{
-    display: none;
-  }
-
-  .lg\:h-\[40\.6875rem\]{
-    height: 40.6875rem;
-  }
-
   .lg\:h-\[48\.8125rem\]{
     height: 48.8125rem;
   }
 
   .lg\:h-\[15\.625rem\]{
     height: 15.625rem;
-  }
-
-  .lg\:h-\[37\.5rem\]{
-    height: 37.5rem;
-  }
-
-  .lg\:w-\[33\.8125rem\]{
-    width: 33.8125rem;
   }
 
   .lg\:w-\[33\.5625rem\]{
@@ -1298,10 +1307,6 @@ video {
   .lg\:px-0{
     padding-left: 0px;
     padding-right: 0px;
-  }
-
-  .lg\:pt-\[6\.25rem\]{
-    padding-top: 6.25rem;
   }
 
   .lg\:pt-0{

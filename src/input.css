@@ -14,21 +14,21 @@
     overflow: hidden;
 }
 .left-mobile{
-    @apply absolute bottom-[13rem] -left-2 w-[50%] h-[18.5rem] lg:hidden bg-[url('../images/bg-pattern-intro-left-mobile.svg')] bg-no-repeat z-10 bg-contain
+    @apply absolute bottom-[13rem] -left-2 w-[50%] h-[18.5rem] md:hidden bg-[url('../images/bg-pattern-intro-left-mobile.svg')] bg-no-repeat z-10 bg-contain
 }
 .right-mobile{
-    @apply absolute -top-[19rem] right-0 h-[30.5rem] w-[35%] bg-[url('../images/bg-pattern-intro-right-mobile.svg')] bg-no-repeat z-30 bg-contain lg:hidden block
+    @apply absolute -top-[19rem] right-0 h-[30.5rem] w-[35%] bg-[url('../images/bg-pattern-intro-right-mobile.svg')] bg-no-repeat z-30 bg-contain md:hidden block
 
 }
 .right-desktop{
-    @apply absolute top-0 -right-52 h-[30.5rem] w-[42%] bg-[url('../images/bg-pattern-intro-right-desktop.svg')] bg-no-repeat z-30 bg-contain hidden lg:block
+    @apply absolute top-0 -right-52 h-[30.5rem] w-[42%] bg-[url('../images/bg-pattern-intro-right-desktop.svg')] bg-no-repeat z-30 bg-contain hidden md:block
 }
 .left-desktop{
-    @apply absolute -top-[30rem] -left-2 w-[12.1875rem] h-[32.5rem] hidden lg:block bg-[url('../images/bg-pattern-intro-left-desktop.svg')] bg-no-repeat z-10 bg-contain
+    @apply absolute -top-[30rem] -left-2 w-[12.1875rem] h-[32.5rem] hidden md:block bg-[url('../images/bg-pattern-intro-left-desktop.svg')] bg-no-repeat z-10 bg-contain
 }
 .right{
-    @apply absolute -top-12 lg:-top-28 right-0 lg:-right-16 h-[30.5rem] lg:h-[34.5rem] w-[50%] lg:w-[35%] bg-[url('../images/bg-pattern-intro-right-mobile.svg')] lg:bg-[url('../images/bg-pattern-intro-right-desktop.svg')] bg-no-repeat z-10 bg-contain block
+    @apply absolute -top-12 md:-top-28 right-0 md:-right-16 h-[30.5rem] md:h-[34.5rem] w-[50%] md:w-[35%] bg-[url('../images/bg-pattern-intro-right-mobile.svg')] md:bg-[url('../images/bg-pattern-intro-right-desktop.svg')] bg-no-repeat z-10 bg-contain block
 }
 .footer{
-    @apply absolute bg-[url('../images/bg-pattern-footer-mobile.svg')] lg:bg-[url('../images/bg-pattern-footer-desktop.svg')] bg-no-repeat block h-[10.9375rem] lg:h-[14.5625rem] w-full lg:w-[33.125rem] z-10
+    @apply absolute bg-[url('../images/bg-pattern-footer-mobile.svg')] md:bg-[url('../images/bg-pattern-footer-desktop.svg')] bg-no-repeat block h-[10.9375rem] md:h-[14.5625rem] w-full md:w-[33.125rem] z-10
 }
