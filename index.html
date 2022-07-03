@@ -14,7 +14,7 @@
 </head>
 <body class="overflow-x-hidden">
 
-  <header class="relative z-50 overflow-hidden">
+  <header class="relative">
     <div class="container">
       <nav class="relative flex items-center justify-between h-20 px-6 lg:px-0 ">
         <!-- logo -->
@@ -67,7 +67,7 @@
           <div class="pt-[6.25rem] pb-[5.625rem] w-full lg:w-[33.5625rem] lg:pt-0 lg:pb-0 text-center lg:text-left">
             <span class="hidden lg:flex w-[9.5625rem] h-[1px] bg-veryLightGray mb-[4.375rem] "></span>
 
-            <h1 class="font-sans font-normal text-5xl lg:text-6xl text-veryLightGray mb-5 lg:mb-6 px-5 lg:px-0">Humanizing your insurance.</h1>
+            <h1 class="font-sans font-normal text-5xl lg:text-7xl text-veryLightGray mb-5 lg:mb-6 px-5 lg:px-0">Humanizing your insurance.</h1>
             <p class="font-karla font-normal text-veryLightGray mb-9 px-6 lg:px-0">Get your life insurance coverage easier and faster. We blend our expertise and technology to help you find the plan that’s right for you. Ensure you and your loved ones are protected.</p>
             <button href="#" class="uppercase text-xs text-veryLightGray font-bold font-karla tracking-widest w-36 h-10 mx-auto lg:mx-0 border-2 border-veryLightGray flex items-center justify-center hover:bg-veryLightGray hover:text-veryDarkViolet duration-300">View plans</button>
           </div>
@@ -77,8 +77,9 @@
 
     <!-- features section -->
 
-    <section class="features h-[81.875rem] lg:h-[48.8125rem] ">
-
+    <section class="features h-[81.875rem] lg:h-[48.8125rem] relative ">
+      <span class="right-mobile"></span>
+      <span class="left-desktop"></span>
       <div class="container">
         <!-- heading -->
         <div class="heading mt-[8.75rem] lg:mt-[18.75rem] text-center md:text-left mb-[5.25rem] md:mb-[6.25rem] ">
@@ -117,42 +118,92 @@
 
     <!-- description section -->
 
-    <section class="h-[21.5625rem] lg:h-[15.625rem] bg-darkViolet "></section>
+    <section class="h-[21.5625rem] lg:h-[15.625rem] bg-darkViolet relative overflow-hidden mb-[8.75rem] md:mb-[9.375rem] ">
+      <span class="right"></span>
+      <div class="container">
+        <div class="px-[2.625rem] lg:px-0 flex items-center justify-between flex-col md:flex-row relative z-20 pt-[4.875rem]">
+          <h3 class="font-sans font-normal text-4xl lg:text-6xl text-veryLightGray text-center md:text-left lg:w-[33.6875rem] mb-11 lg:mb-0">Find out more about how we work</h3>
+          <button href="#" class="uppercase text-xs text-veryLightGray font-bold font-karla tracking-widest w-40 h-10 mx-auto lg:mx-0 border-2 border-veryLightGray flex items-center justify-center hover:bg-veryLightGray hover:text-veryDarkViolet duration-300">How we work</button>
+
+        </div>
+      </div>
+    </section>
+
+
   </main>
 
+  <footer class="relative bg-veryLightGray pb-[5.625rem] lg:pb-16">
+    <span class="footer"></span>
+    <div class="container pt-[5.5rem] lg:pt-[4.0625rem] px-5 lg:px-0 relative z-20">
 
-  <!-- 
-  Find out more about how we work
+      <!-- intro -->
+      <div class="flex items-center justify-between flex-col lg:flex-row  pb-10 lg:pb-[2.375rem] border-b border-darkGrayishViolet mb-[2.625rem] lg:mb-[3.25rem]">
+        <img src="images/logo.svg" alt="logo" class="logo w-28 h-5 mb-8 lg:mb-0">
+        <!-- icons -->
+        <div class="flex items-center justify-center space-x-4">
+          <img src="images/icon-facebook.svg" alt="icon-facebook" class="h-[1.625rem] w-[1.625rem]">
+          <img src="images/icon-twitter.svg" alt="icon-twitter" class="h-[1.625rem] w-[1.625rem]">
+          <img src="images/icon-pinterest.svg" alt="icon-pinterest" class="h-[1.625rem] w-[1.625rem]">
+          <img src="images/icon-instagram.svg" alt="icon-instagram" class="h-[1.625rem] w-[1.625rem]">
+        </div>
+      </div>
 
-  How we work
+      <!-- links -->
+      <div class="flex items-center justify-between flex-col md:flex-row flex-wrap gap-11">
+        <!-- link group 1 -->
+        <div class="flex items-center justify-center flex-col md:items-start">
+          <p class="mb-10 text-sm text-darkGrayishViolet font-karla font-normal uppercase">Our company</p>
+          <!-- links -->
+          <div class="space-y-5 flex items-center justify-center flex-col md:items-start">
+            <a href="#" class="text-sm text-veryDarkViolet font-karla font-normal hover:font-bold uppercase hover:underline">How we work</a>
+            <a href="#" class="text-sm text-veryDarkViolet font-karla font-normal hover:font-bold uppercase hover:underline">Why Insure?</a>
+            <a href="#" class="text-sm text-veryDarkViolet font-karla font-normal hover:font-bold uppercase hover:underline">View plans</a>
+            <a href="#" class="text-sm text-veryDarkViolet font-karla font-normal hover:font-bold uppercase hover:underline">Reviews</a>
 
-  Our company
+          </div>
+        </div>
 
-  How we work
-  Why Insure?
-  View plans
-  Reviews
+        <!-- link group 2 -->
+        <div class="flex items-center justify-center flex-col md:items-start">
+          <p class="mb-10 text-sm text-darkGrayishViolet font-karla font-normal uppercase">Help me</p>
+          <!-- links -->
+          <div class="space-y-5 flex items-center justify-center flex-col md:items-start">
+            <a href="#" class="text-sm text-veryDarkViolet font-karla font-normal hover:font-bold uppercase hover:underline">FAQ</a>
+            <a href="#" class="text-sm text-veryDarkViolet font-karla font-normal hover:font-bold uppercase hover:underline">Terms of use</a>
+            <a href="#" class="text-sm text-veryDarkViolet font-karla font-normal hover:font-bold uppercase hover:underline">Privacy policy</a>
+            <a href="#" class="text-sm text-veryDarkViolet font-karla font-normal hover:font-bold uppercase hover:underline">Cookies</a>
 
-  Help me
+          </div>
+        </div>
 
-  FAQ
-  Terms of use
-  Privacy policy
-  Cookies
+        <!-- link group 3 -->
+        <div class="flex items-center justify-center flex-col md:items-start">
+          <p class="mb-10 text-sm text-darkGrayishViolet font-karla font-normal uppercase">Contact</p>
+          <!-- links -->
+          <div class="space-y-5 flex items-center justify-center flex-col md:items-start">
+            <a href="#" class="text-sm text-veryDarkViolet font-karla font-normal hover:font-bold uppercase hover:underline">Sales</a>
+            <a href="#" class="text-sm text-veryDarkViolet font-karla font-normal hover:font-bold uppercase hover:underline">Support</a>
+            <a href="#" class="text-sm text-veryDarkViolet font-karla font-normal hover:font-bold uppercase hover:underline">Live chat</a>
 
-  Contact
+          </div>
+        </div>
 
-  Sales
-  Support
-  Live chat
+         <!-- link group 4 -->
+         <div class="flex items-center justify-center flex-col md:items-start">
+          <p class="mb-10 text-sm text-darkGrayishViolet font-karla font-normal uppercase">Others</p>
+          <!-- links -->
+          <div class="space-y-5 flex items-center justify-center flex-col md:items-start">
+            <a href="#" class="text-sm text-veryDarkViolet font-karla font-normal hover:font-bold uppercase hover:underline">Careers</a>
+            <a href="#" class="text-sm text-veryDarkViolet font-karla font-normal hover:font-bold uppercase hover:underline">Press</a>
+            <a href="#" class="text-sm text-veryDarkViolet font-karla font-normal hover:font-bold uppercase hover:underline">Licenses</a>
 
-  Others
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-  Careers
-  Press
-  Licenses -->
 
-  
   <!-- <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
