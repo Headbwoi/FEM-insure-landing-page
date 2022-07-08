@@ -6,12 +6,10 @@ This is a solution to the [Insure landing page challenge on Frontend Mentor](htt
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -22,13 +20,9 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
-
-![](./screenshot.jpg)
-
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [live site](https://headbwoi.github.io/FEM-insure-landing-page/)
 
 ## My process
 
@@ -39,8 +33,9 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
+- Tailwindcss
 
 ## Author
 
-- Frontend Mentor - [@hHeadbwoi](https://www.frontendmentor.io/profile/headbwoi)
+- Frontend Mentor - [@Headbwoi](https://www.frontendmentor.io/profile/headbwoi)
 - Twitter - [@headbwoi_1](https://www.twitter.com/headbwoi_1)
